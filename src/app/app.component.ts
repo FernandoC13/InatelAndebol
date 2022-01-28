@@ -14,10 +14,9 @@ export interface Team {
   points: number;
 }
 
-// VITORIAS = 3pts | EMPATES = 2pts | DERROTAS = 1pt
 const ELEMENT_DATA: Team[] = [
   {
-    image: '../assets/vulcanense.png',
+    image: './assets/vulcanense.png',
     name: 'Vulcanense Futebol Clube',
     wins: 1,
     draws: 0,
@@ -28,7 +27,7 @@ const ELEMENT_DATA: Team[] = [
     points: 3,
   },
   {
-    image: '../assets/sm.png',
+    image: './assets/sm.png',
     name: 'C.R. São Miguel',
     wins: 5,
     draws: 0,
@@ -39,7 +38,7 @@ const ELEMENT_DATA: Team[] = [
     points: 15,
   },
   {
-    image: '../assets/almada.png',
+    image: './assets/almada.png',
     name: 'A.M.I./Almada Atlético Clube',
     wins: 4,
     draws: 0,
@@ -50,7 +49,7 @@ const ELEMENT_DATA: Team[] = [
     points: 12,
   },
   {
-    image: '../assets/carris.png',
+    image: './assets/carris.png',
     name: 'Grupo Desportivo da Carris',
     wins: 4,
     draws: 0,
@@ -61,7 +60,7 @@ const ELEMENT_DATA: Team[] = [
     points: 12,
   },
   {
-    image: '../assets/BP.png',
+    image: './assets/BP.png',
     name: 'G.D.C. Banco de Portugal',
     wins: 2,
     draws: 0,
@@ -72,7 +71,7 @@ const ELEMENT_DATA: Team[] = [
     points: 6,
   },
   {
-    image: '../assets/agualva.png',
+    image: './assets/agualva.png',
     name: '1947 Agualva - Amaterasu',
     wins: 0,
     draws: 0,
@@ -83,8 +82,8 @@ const ELEMENT_DATA: Team[] = [
     points: 0,
   },
   {
-    image: '../assets/tranquilidade.png',
-    name: 'Tranquilidade',
+    image: './assets/tranquilidade.png',
+    name: 'CCD Tranquilidade',
     wins: 4,
     draws: 0,
     losses: 0,
@@ -94,7 +93,7 @@ const ELEMENT_DATA: Team[] = [
     points: 12,
   },
   {
-    image: '../assets/NB.png',
+    image: './assets/NB.png',
     name: 'Clube Novo Banco',
     wins: 3,
     draws: 0,
@@ -105,7 +104,7 @@ const ELEMENT_DATA: Team[] = [
     points: 9,
   },
   {
-    image: '../assets/liberdade.png',
+    image: './assets/liberdade.png',
     name: 'Liberdade Futebol Clube',
     wins: 1,
     draws: 0,
